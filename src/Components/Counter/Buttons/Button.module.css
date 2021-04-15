@@ -1,0 +1,21 @@
+.button {
+    background-color: orange;
+    width: 150px;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    font-weight: bold;
+    color: gray;
+    outline: none;
+    font-size: 25px;
+}
+
+
+.button:disabled {
+    opacity: 0.4;
+
+}
+
+.button:active {
+    opacity: 0;
+}
